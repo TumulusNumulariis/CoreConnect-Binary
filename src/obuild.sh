@@ -1,0 +1,2 @@
+g++ -g -std=c++17 -Wwrite-strings -fpermissive -O0 -Wall -pthread -Wno-deprecated -I./h -I. -I../eventpp/include/eventpp -I../rapidjson/tags/release_v1.0.2/rapidjson-master/include -I../util_lib/ -I../linenoise/include  sample_test_client_moonx.cpp ../linenoise/src/linenoise.cpp ../linenoise/src/wcwidth.cpp ../linenoise/src/ConvertUTF.cpp -o sample_test_client_moonx -L../util_lib/lib -lutil -levent_poll
+    

@@ -1,0 +1,1 @@
+g++ -g -std=c++17  -Wwrite-strings -fpermissive -O3 -Wall -pthread -Wno-deprecated -I./h -I. -I../util_lib/ -I./linenoise-ng-master/include    main.cpp ./linenoise-ng-master/src/linenoise.cpp ./linenoise-ng-master/src/wcwidth.cpp ./linenoise-ng-master/src/ConvertUTF.cpp -o event_engine_test_sample$1 -L../util_lib/lib -lutil 
